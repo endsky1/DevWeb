@@ -24,14 +24,14 @@ h2 {
 }
 
 a:link, a:visited {
-  color: #fb6542;
+  color: rgb(9, 255, 50);
 }
 
 a:hover {
-  text-decoration: none;
+  color: orange;
 }
 ul {
-  background-color: white;
- padding-left: 20%;
- border-color: purple;
- border: 50%;}
+  background-color: rgb(204, 201, 201);
+ padding-left: 5%;
+ border: 5px solid rgb(180, 122, 255) ;
+}
