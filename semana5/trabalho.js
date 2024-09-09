@@ -45,3 +45,29 @@ const setinha = (entrada) => {
 }
 
 const setinha2= (entrada) => entrada + 34
+const meuArray = [21,34, 'Andergleison', [32,45]];
+
+let minhaglobal =34;
+
+function minhaNovissimaFuncao(){
+  var minhaGlobal = 23
+  return minhaGlobal;
+}
+
+function minhaFuncaoMaior(entrada) {
+  let resultado;
+  if (entrada % 2 === 0) {
+    resultado = 'par';  
+  }
+  return resultado;
+}
+
+function minhaFuncaoMaior2(entrada){
+  let r;
+  if (entrada % 2 === 0) {
+    r = 'par';
+  } else {
+    r = 'impar';
+  }
+  return r;
+}
