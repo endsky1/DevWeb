@@ -71,3 +71,9 @@ function minhaFuncaoMaior2(entrada){
   }
   return r;
 }
+
+meuArray.forEach((el) => console.log(el))
+
+const funcImprime = (ele, indice) => console.log ("indice", indice, ":", ele)
+
+meuArray.forEach(funcImprime)
